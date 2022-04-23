@@ -34,7 +34,7 @@ only your own. This is changeable in the config at: ``BepInEx\config\BepInEx.cfg
 ## Installation
 
 To install the mod, one can follow the [same instructions](https://github.com/Mn0ky/QOL-Mod/#installation) as found on the QOL-Mod page and apply them here. 
-**In addition to putting the ``ThrowCalc.dll`` into the ``BepInEx\Plugins`` folder, you must [download](https://github.com/Mn0ky/SFTG-SimpleAntiCheat/releases/download/v1.0.0/SimpleAntiCheat.dll) and put the ``SimpleAntiCheat.dll`` into the folder as well, 
+**In addition to putting the ``ThrowCalc.dll`` into the ``BepInEx\Plugins`` folder, you must [download](https://github.com/Mn0ky/SFTG-SimpleAntiCheat/releases/latest/download/SimpleAntiCheat.dll) and put the ``SimpleAntiCheat.dll`` into the folder as well, 
 <ins>or the mod will not run</ins>**.
 
 ## Notes
