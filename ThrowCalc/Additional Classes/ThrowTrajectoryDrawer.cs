@@ -33,7 +33,7 @@ namespace ThrowCalc
 
             SpawnID = FightingInstance.GetComponentInParent<Controller>().playerID;
 
-            _lineRenderer.material = MatchmakingHandler.Instance.IsInsideLobby
+            _lineRenderer.sharedMaterial = MatchmakingHandler.Instance.IsInsideLobby
                 ? MultiplayerManagerAssets.Instance.Colors[SpawnID]
                 : MultiplayerManagerAssets.Instance.Colors[0];
 

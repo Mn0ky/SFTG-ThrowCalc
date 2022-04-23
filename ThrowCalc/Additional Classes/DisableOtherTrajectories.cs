@@ -6,7 +6,7 @@ namespace ThrowCalc
     class DisableOtherTrajectories : MonoBehaviour
     {
         public static bool Toggled { get; private set; }
-        private readonly KeyCode _toggleKey = Plugin.ConfigDisTrajKey.Value;
+        private readonly KeyCode _toggleKey = (KeyCode) Enum.Parse(typeof(KeyCode), Plugin.ConfigDisTrajKey.Value);
 
         void Update()
         {

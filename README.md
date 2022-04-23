@@ -37,5 +37,9 @@ To install the mod, one can follow the [same instructions](https://github.com/Mn
 **In addition to putting the ``ThrowCalc.dll`` into the ``BepInEx\Plugins`` folder, you must [download](https://github.com/Mn0ky/SFTG-SimpleAntiCheat/releases/download/v1.0.0/SimpleAntiCheat.dll) and put the ``SimpleAntiCheat.dll`` into the folder as well, 
 <ins>or the mod will not run</ins>**.
 
+## Notes
+
+- Blocking will be invisible in the main menu, this fixes itself when joining a lobby.
+
 ## Math Summary
 To be written.

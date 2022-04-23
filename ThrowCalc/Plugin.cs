@@ -14,7 +14,7 @@ namespace ThrowCalc
         public const string VersionNumber = "1.0.0"; // Version string of plugin
         public const string Guid = "monky.plugins.ThrowCalc";
 
-        public static ConfigEntry<KeyCode> ConfigDisTrajKey { get; private set; }
+        public static ConfigEntry<string> ConfigDisTrajKey { get; private set; }
 
         private void Awake()
         {
@@ -40,8 +40,8 @@ namespace ThrowCalc
             {
                 ConfigDisTrajKey = Config.Bind("Keybind",
                     "ToggleKey",
-                    KeyCode.P,
-                    "Change the keyboard key used to disable/enable other players trajectories from being shown?");
+                    "P",
+                    "Change the keyboard key used to disable/enable other players trajectories from being shown? (https://docs.unity3d.com/ScriptReference/KeyCode.html)");
             }
             catch (Exception ex)
             {
