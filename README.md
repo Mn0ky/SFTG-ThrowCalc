@@ -29,7 +29,7 @@ mod everyone can freely play around with and or reference if ever needed.
 
 The trajectory will begin being drawn as soon as the weapon is picked up. Once said weapon is thrown the trajectory will not be updated until a weapon is again picked up. 
 Trajectories are drawn, by default, for all players within a lobby. Pressing the <kbd>P</kbd> key will disable rendering trajectories from other players and will let you see
-only your own. This is changeable in the config at: ``BepInEx\config\BepInEx.cfg``.
+only your own. This is changeable in the config at: ``BepInEx\config\monky.plugins.ThrowCalc.cfg``.
 
 ## Installation
 
